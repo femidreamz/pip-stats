@@ -4,13 +4,17 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="referrer" content="no-referrer">
-<title>Pip Stats Connected</title>
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; base-uri 'none'; form-action 'none'">
+<title>TikTok sign-in | Pip Stats</title>
 <link rel="stylesheet" href="style.css">
+<script defer src="callback.js"></script>
 </head>
 <body>
 <main>
-<h1>TikTok connected</h1>
-<p>Thanks. TikTok sent you back to Pip Stats. You can close this page now.</p>
+<div aria-live="polite" aria-atomic="true">
+<h1 id="heading">TikTok sign-in</h1>
+<p id="message">This page cannot confirm a connection. Check the status in your private Pip Stats dashboard.</p>
+</div>
 <p><a href="index.html">Back to Pip Stats</a></p>
 </main>
 </body>
